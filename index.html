@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="filters">
+            <h2>Filters</h2>
+            <div class="filter-category">
+                <h3>Category</h3>
+                <label><input type="checkbox"> Electronics</label>
+                <label><input type="checkbox"> Books</label>
+                <label><input type="checkbox"> Clothing</label>
+            </div>
+            <div class="filter-price">
+                <h3>Price Range</h3>
+                <label><input type="radio" name="price"> Under $50</label>
+                <label><input type="radio" name="price"> $50 - $100</label>
+                <label><input type="radio" name="price"> Above $100</label>
+            </div>
+        </aside>
+        <main class="product-list">
+            <div class="product-card">
+                <img src="product1.jpeg" alt="Product 1">
+                <h4>Product 1</h4>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product2.jpeg" alt="Product 2">
+                <h4>Product 2</h4>
+                <p>$49.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product3.jpeg" alt="Product 3">
+                <h4>Product 3</h4>
+                <p>$89.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more product cards as needed -->
+        </main>
+    </div>
+</body>
+</html>
